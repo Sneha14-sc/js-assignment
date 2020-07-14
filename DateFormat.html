@@ -1,0 +1,17 @@
+<!--Write a javascript program to get current date in various format-->
+<html>
+    <head>
+        <title>Different Date Format</title>
+    </head>
+    <body>
+        <h2>Date Format</h2>
+       <script>
+           var d=new Date();
+           document.write(d.getMonth()+1+"-"+d.getDate()+"-"+d.getFullYear()+"<br>");
+           document.write(d.getMonth()+1+"/"+d.getDate()+"/"+d.getFullYear()+"<br>");
+           document.write(d.toLocaleDateString()+"<br>");
+           var mm=d.getMonth()+1;
+           document.write(d.getDate()+"-"+mm+"-"+d.getFullYear()+"<br>");
+       </script>
+    </body>
+</html>
