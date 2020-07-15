@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1-Q2</title>
+</head>
+<body>
+    <h1>Difference between var, let and const</h1>
+    <h3>var</h3>
+    <p>'var' declarations are globally scoped or function/locally scoped. The scope is global when a 'var' variable is declared outside the function.This means that any variable i.e declared outside a function block is available for use in whole window. 'var' is function scoped when it is declared within a function. This means that it is available and can be accessed only within that function.</p>
+    <script>
+        var greet="Have a nice day";
+        {
+            var greeting="Good Morning";
+            console.log(greeting);
+        }
+        console.log(greet);
+    </script>
+    <h3>let</h3>
+    <p>'let' is now preferred for variable declaration. It's a replacement to var declaration. A 'let' is a chunk of code bounded by {}. So the variable declared in the block with 'let' is only available for use within that block.</p>
+    <script>
+        let greet1="Happy noon";
+        {
+            let in1="Good Afternoon";
+            console.log(in1);
+        }
+        console.log(greet1);
+    </script>
+    <h3>const</h3>
+    <p>Variables declared within 'const' maintain constant values. 'const' declarations has some similarities with 'let' declarations. Like 'let' declarations, 'const' declarations can only be accessed within the block they were declared. The value of 'const' annot be updated or redeclared.</p> 
+    <script>
+        const greet2="Good Evening";
+              console.log(greet);
+        const greet2="Good Day";
+             
+    </script>
+</body>
+</html>
