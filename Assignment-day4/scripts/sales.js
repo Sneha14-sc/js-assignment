@@ -19,7 +19,7 @@ switch(cal)
 {
     case 10:count=(0.1*(sale1));
             console.log(count);
-    case 7:if(sale>20000)
+    case 7:if(sale>=30000)
                 count+=(0.07*sale1);
            else
                 count+=(0.07*5000);
