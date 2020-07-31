@@ -1,0 +1,36 @@
+.stopwatch
+{
+   margin:40px;
+   padding: 20px;
+   background-color: rgb(117, 226, 184);
+   color:blue;
+   font-weight: bolder;
+   font-size: larger;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+button
+{
+    margin:7px;
+    background:blue;
+    border: 4px solid darkturquoise;
+    color: white;
+    font-weight: bolder;
+    align-content:center;
+    height: 50px;
+    width:100px;
+}
+#quotes
+{
+    margin:50px;
+    padding:10px;
+    height:250px;
+    width:400px;
+    background-color: rebeccapurple;
+    color: yellow;
+    font-weight:bolder;
+    font-size: xx-large;
+    align-content: center;
+    text-align: center;
+    text-shadow: red;
+}
