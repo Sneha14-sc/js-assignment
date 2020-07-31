@@ -45,4 +45,4 @@ const clrBtn = document.getElementById('clrBtn');
 
 startBtn.addEventListener('click',start,false);
 stopBtn.addEventListener('click',stop,false);
-resetBtn.addEventListener('click',clear,false);
+clrBtn.addEventListener('click',clear,false);
